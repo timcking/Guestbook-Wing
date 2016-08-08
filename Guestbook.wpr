@@ -35,13 +35,11 @@ proj.directory-list = [{'dirloc': loc('e2e'),
                         'include_hidden': False,
                         'recursive': True,
                         'watch_for_changes': True}]
-proj.file-list = [loc('.gitignore'),
-                  loc('app.yaml'),
+proj.file-list = [loc('app.yaml'),
                   loc('favicon.ico'),
                   loc('guestbook.py'),
                   loc('index.html'),
                   loc('index.yaml'),
-                  loc('Makefile'),
                   loc('README.md'),
                   loc('../../../Program Files (x86)/Google/google_appengine/dev_appserver.py')]
 proj.file-type = 'shared'
